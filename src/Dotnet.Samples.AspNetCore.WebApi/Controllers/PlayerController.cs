@@ -4,7 +4,7 @@ using Dotnet.Samples.AspNetCore.WebApi.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-uh oh 
+
 namespace Dotnet.Samples.AspNetCore.WebApi.Controllers;
 
 [ApiController]
@@ -221,4 +221,5 @@ public class PlayerController(
         }
     }
 }
+
 
