@@ -5,7 +5,7 @@ using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Dotnet.Samples.AspNetCore.WebApi.Controllers; 
+namespace Dotnet.Samples.AspNetCore.WebApi.Controllers;
 
 [ApiController]
 [Route("players")]
@@ -221,6 +221,7 @@ public class PlayerController(
         }
     }
 }
+
 
 
 
